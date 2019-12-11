@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="printList" prefHeight="485.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane prefHeight="123.0" prefWidth="696.0" style="-fx-background-color: #CD5C5C;">
+            <children>
+                <Text layoutX="263.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сотрудник" wrappingWidth="224.0000286102295">
+                    <font>
+                        <Font name="Javanese Text" size="36.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+
+        <SplitMenuButton fx:id="orderButList" layoutX="302.0" layoutY="131.0" mnemonicParsing="false" text="Заказы">
+            <items>
+                <MenuItem fx:id="getAllPayments" mnemonicParsing="false" text="Посмотреть оплату" />
+                <MenuItem fx:id="getPaid" mnemonicParsing="false" text="Оплаченные" />
+                <MenuItem fx:id="setPayment" mnemonicParsing="false" text="Внести оплату" />
+            </items>
+        </SplitMenuButton>
+        <SplitMenuButton fx:id="workerMethList" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" text="Сотрудники">
+        <items>
+            <MenuItem fx:id="updatePassword" mnemonicParsing="false" text="Поменять пароль" />
+        </items>
+        </SplitMenuButton>
+        <TableView fx:id="tableEmpl" layoutX="108.0" layoutY="169.0" prefHeight="282.0" prefWidth="492.0">
+            <columns>
+                <TableColumn fx:id="apDate" prefWidth="96.79995727539062" text="Дата" />
+                <TableColumn fx:id="orType" prefWidth="53.60003662109375" text="Тип" />
+                <TableColumn fx:id="idWorker" prefWidth="120.0" text="Рабочий" />
+                <TableColumn fx:id="orPrice" prefWidth="48.79998779296875" text="Цена" />
+                <TableColumn fx:id="orQuan" prefWidth="96.79995727539062" text="Количество" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

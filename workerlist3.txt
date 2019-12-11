@@ -1,0 +1,8 @@
+Worker(idWorker=1, name=Illia, surname=Stoliarchuk, phone=0983980717, title=0, titlename=Начальник)
+Worker(idWorker=2, name=Igor, surname=Shapovalov, phone=0987897889, title=0, titlename=Работяга)
+Worker(idWorker=4, name=Ivan, surname=Rekov, phone=0657895212, title=0, titlename=Работяга)
+Worker(idWorker=5, name=Ivan, surname=Rekov, phone=0657895212, title=0, titlename=Работяга)
+Worker(idWorker=7, name=Svetlana, surname=Matvienko, phone=0453217894, title=0, titlename=Бухгалтер)
+Worker(idWorker=8, name=Vova, surname=Svets, phone=789654123, title=0, titlename=Начальник)
+
+ _____________Рабочие нашей компании__________

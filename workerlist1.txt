@@ -1,0 +1,3 @@
+Worker(idWorker=8, name=Vova, surname=Svets, phone=789654123, title=0, titlename=Начальник)
+
+ Рабочие нашей компании

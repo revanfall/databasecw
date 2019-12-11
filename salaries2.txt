@@ -1,0 +1,13 @@
+ _____________Зарплаты с бонусами___________
+Illia---Stoliarchuk---Начальник---1---30250.0
+Illia---Stoliarchuk---Начальник---8---30500.0
+Illia---Stoliarchuk---Начальник---0---30000.0
+Illia---Stoliarchuk---Начальник---5---30024.0
+Igor---Shapovalov---Работяга---1---40375.0
+Igor---Shapovalov---Работяга---8---40750.0
+Igor---Shapovalov---Работяга---0---40000.0
+Igor---Shapovalov---Работяга---5---40036.0
+Svetlana---Matvienko---Бухгалтер---1---15125.0
+Svetlana---Matvienko---Бухгалтер---8---15250.0
+Svetlana---Matvienko---Бухгалтер---0---15000.0
+Svetlana---Matvienko---Бухгалтер---5---15012.0

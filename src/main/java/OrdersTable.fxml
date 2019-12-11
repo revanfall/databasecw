@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: CD5C5C;">
+         <children>
+            <Text layoutX="270.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заказы">
+               <font>
+                  <Font name="Javanese Text" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="ordTable" layoutY="84.0" prefHeight="209.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="dateTabl" prefWidth="75.0" text="Дата" />
+          <TableColumn fx:id="typeTabl" prefWidth="75.0" text="Тип" />
+            <TableColumn fx:id="priceTabl" prefWidth="90.4000244140625" text="Цена" />
+            <TableColumn fx:id="numCol" prefWidth="90.4000244140625" text="Количество" />
+            <TableColumn fx:id="emplCol" prefWidth="90.4000244140625" text="№ сотрудника" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

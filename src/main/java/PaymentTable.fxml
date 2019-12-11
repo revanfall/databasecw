@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="120.0" prefWidth="601.0" style="-fx-background-color: CD5C5C;">
+         <children>
+            <Text layoutX="260.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оплата">
+               <font>
+                  <Font name="Javanese Text" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="paymentTable" layoutX="155.0" layoutY="131.0" prefHeight="200.0" prefWidth="290.0">
+        <columns>
+          <TableColumn fx:id="idPayCol" prefWidth="75.0" text="№ оплаты" />
+          <TableColumn fx:id="idOrdPay" prefWidth="75.0" text="№ заказа" />
+            <TableColumn fx:id="paymentColumn" prefWidth="75.0" text="Оплата" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

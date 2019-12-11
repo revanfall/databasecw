@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="intellij-rainbow-brackets">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Bootstrap/intellij-rainbow-brackets.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Bootstrap/org.eclipse.egit.github.core-5.5.0.201909110433-r.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="printList" prefHeight="485.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="123.0" prefWidth="696.0" style="-fx-background-color: #CD5C5C;">
+         <children>
+            <Text layoutX="263.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Начальник" wrappingWidth="224.0000286102295">
+               <font>
+                  <Font name="Javanese Text" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <SplitMenuButton fx:id="workerMethList" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" text="Сотрудники">
+        <items>
+          <MenuItem fx:id="registerWorker" mnemonicParsing="false" text="Зарегестрировать сотрудника" />
+            <MenuItem fx:id="deleteWorker" mnemonicParsing="false" text="Удалить сотрудника" />
+            <MenuItem fx:id="updatePassword" mnemonicParsing="false" text="Поменять пароль" />
+            <MenuItem fx:id="showBonusesSal" mnemonicParsing="false" text="Посмотреть зарплаты" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton layoutX="558.0" layoutY="131.0" mnemonicParsing="false" text="Печать">
+         <items>
+            <MenuItem fx:id="printWorkers" mnemonicParsing="false" text="Рабочие" />
+            <MenuItem fx:id="salaryWtihBonuses" mnemonicParsing="false" text="Зарплата с бонусами" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="orderButList" layoutX="302.0" layoutY="131.0" mnemonicParsing="false" text="Заказы">
+         <items>
+            <MenuItem fx:id="getOrders" mnemonicParsing="false" text="Посмотреть все" />
+            <MenuItem fx:id="getAllPayments" mnemonicParsing="false" text="Посмотреть оплату" />
+            <MenuItem fx:id="getPaid" mnemonicParsing="false" text="Оплаченные" />
+            <MenuItem fx:id="setPayment" mnemonicParsing="false" text="Внести оплату" />
+            <MenuItem fx:id="createOrder" mnemonicParsing="false" text="Создать заказ" />
+         </items>
+      </SplitMenuButton>
+      <TableView fx:id="tableEmpl" layoutX="52.0" layoutY="183.0" prefHeight="282.0" prefWidth="606.0">
+        <columns>
+          <TableColumn fx:id="idEmpl" prefWidth="96.79995727539062" text="id Сотрудника" />
+          <TableColumn fx:id="tableName" prefWidth="53.60003662109375" text="Имя" />
+            <TableColumn fx:id="tablSurname" prefWidth="72.0" text="Фамилия" />
+            <TableColumn fx:id="tablPhone" prefWidth="96.79995727539062" text="Телефон" />
+            <TableColumn fx:id="tableTitle" prefWidth="96.79995727539062" text="Звание" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

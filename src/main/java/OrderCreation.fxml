@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="94.0" prefWidth="600.0" style="-fx-background-color: CD5C5C;">
+         <children>
+            <Text layoutX="224.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Создать заказ">
+               <font>
+                  <Font name="Javanese Text" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="advertType" layoutX="226.0" layoutY="124.0" promptText="Тип" />
+      <TextField fx:id="adPrice" layoutX="226.0" layoutY="174.0" promptText="Цена" />
+      <TextField fx:id="adQuant" layoutX="225.0" layoutY="221.0" promptText="Количество" />
+      <Button fx:id="createOrder" layoutX="494.0" layoutY="344.0" mnemonicParsing="false" text="Создать заказ" />
+   </children>
+</AnchorPane>
